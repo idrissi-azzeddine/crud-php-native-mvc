@@ -1,0 +1,7 @@
+Options All -indexes
+
+RewriteEngine On
+
+RewriteBase /ila_sd9/
+
+RewriteRule ^([-a-zA-Z0-9]+)$ index.php?page=$1
